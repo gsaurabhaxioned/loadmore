@@ -143,7 +143,7 @@ li {
 
 .welcome-header {
   padding-left: 1.2%;
-  border-right: 1px solid;
+  border-right: 1px solid #70547F;
 }
 
 .get-started-info {
@@ -159,12 +159,22 @@ li {
   color: #fff;
   font-size: 11px;
   letter-spacing: 1px;
+  transition: all ease-in-out 0.5s; 
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.get-started-info button:hover {
+  background-color: transparent;
+  color: #49BD8B;
 }
 
 /* get started end  */
 /* magna feugiat start  */
 .magna-feugiat {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #CCCCCC;
 }
 
 .magna-feugiat .wrapper {
@@ -179,7 +189,7 @@ li {
 
 .magna-info {
   padding-right: 5%;
-  border-right: 1px solid black;
+  border-right: 1px solid #CCCCCC;
 }
 
 .magna-info h2 {
@@ -196,11 +206,21 @@ li {
 .magna-info button {
   padding: 12px 36px;
   margin-top: 30px;
-  border: 1px solid black;
+  border: 1px solid #CCCCCC;
   border-radius: 20px;
   background-color: transparent;
   font-size: 11px;
   letter-spacing: 1px;
+  transition: all ease-in-out 0.5s; 
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.magna-info button:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .magna-list {
@@ -230,12 +250,12 @@ li {
   .ipsum-pharetra-loader {
     padding-bottom: 71px;
     margin-top: 72px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #CCCCCC;
   }
 
   .ipsum-pharetra {
     margin-top: 43px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #CCCCCC;
     align-items: center;
     display: none;
   }
@@ -255,11 +275,21 @@ li {
   .ipsum-pharetra-info button {
     padding: 13px 36px;
     margin-top: 30px;
-    border: 1px solid;
+    border: 1px solid #CCCCCC;
     border-radius: 20px;
     font-size: 10px;
     font-weight: bold;
     letter-spacing: 1px;
+    transition: all ease-in-out 0.5s; 
+    -webkit-transition: all ease-in-out 0.5s;
+    -ms-transition: all ease-in-out 0.5s;
+    -o-transition: all ease-in-out 0.5s;
+    -moz-transition: all ease-in-out 0.5s;
+  }
+
+  .ipsum-pharetra-info button:hover {
+    background-color: #000;
+    color: #fff;
   }
 
   .ipsum-pharetra p {
@@ -280,10 +310,20 @@ li {
   .load-more {
     margin-top: 44px;
     padding: 12px 74px;
-    border: 1px solid;
+    border: 1px solid #CCCCCC;
     border-radius: 20px;
     font-size: 11px;
     font-weight: bold;
+    transition: all ease-in-out 0.5s; 
+    -webkit-transition: all ease-in-out 0.5s;
+    -ms-transition: all ease-in-out 0.5s;
+    -o-transition: all ease-in-out 0.5s;
+    -moz-transition: all ease-in-out 0.5s;
+}
+
+.load-more:hover {
+  background-color: #000;
+  color: #fff;
 }
   
 
@@ -291,7 +331,7 @@ li {
 /* orci malesauda start  */
 
 .orci-malesauda {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #CCCCCC;
 }
 
 .orci-malesauda .wrapper {
@@ -306,7 +346,7 @@ li {
 
 .form {
   padding-right: 43px;
-  border-right: 1px solid;
+  border-right: 1px solid #CCCCCC;
 }
 
 .form h3 {
@@ -341,17 +381,28 @@ form {
   box-sizing: border-box;
 }
 
+.contact-link a {
+  transition: all ease-in-out 0.5s; 
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.contact-link a:hover {
+  color: #ffa500;
+}
 
 input[type="text"],input[type="email"],textarea {
   width: 100%;
-  padding: 9px 0 9px 16px;
+  padding: 13px 0 9px 16px;
   border: 1px solid #CCD0D3;
   font-size: 13px;
   box-sizing: border-box;
 }
 
 textarea {
-  padding: 12px 16px;
+  padding: 17px 16px 9px;
   font-size: 15px;
 }
 
@@ -362,11 +413,11 @@ textarea {
 
 input[type="submit"] {
   padding: 13px 36px;
-  border: 1px solid #000;
+  border: 1px solid #CCCCCC;
   border-radius: 20px;
   background-color: transparent;
   color: #000;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: bold;
   letter-spacing: 1px;
   transition: all ease-in-out 0.5s; 
@@ -377,9 +428,10 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: transparent;
-  color: #1BBC9B;
+  background-color: #000;
+  color: #fff;
 }
+
 
 .contact-info ul {
   display: flex;
@@ -398,6 +450,11 @@ input[type="submit"]:hover {
   margin-right: 14px;
   font-family: "fontAwesome";
   color: #49BD8B;
+  transition: all ease-in-out 0.5s; 
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
 } 
 
 .address a{
