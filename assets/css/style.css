@@ -115,7 +115,7 @@ li {
 }
 
 .get-started .wrapper {
-  padding: 13.2% 0 6.2%;
+  padding: 13% 0 6.2%;
   display: flex;
 }
 
@@ -124,6 +124,7 @@ li {
 }
 
 .get-started h2 {
+  margin-top: 3px;
   font-size: 34px;
   font-weight: bold;
   line-height: 48px;
@@ -137,15 +138,21 @@ li {
 
 .welcome-header,.get-started-info {
   flex-basis: 50%;
+  box-sizing: border-box;
+}
+
+.welcome-header {
+  padding-left: 1.2%;
+  border-right: 1px solid;
 }
 
 .get-started-info {
-  padding-left: 8.7%;
+  padding-left: 4.3%;
 }
 
 .get-started-info button {
   padding: 12px 33px;
-  margin-top: 24px;
+  margin-top: 26px;
   border: 2px solid #49BD8B;
   border-radius: 20px;
   background-color: #49BD8B;
@@ -183,7 +190,7 @@ li {
 .magna-info p {
   margin-top: 36px;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 27px;
 }
 
 .magna-info button {
@@ -447,8 +454,12 @@ footer .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 13px;
   opacity: 0.7;
+}
+
+.copyright {
+  font-size: 13px;
+  white-space: nowrap;
 }
 
  /*=================================
@@ -459,13 +470,22 @@ footer .wrapper {
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 
-  .ipsum-pharetra,.orci-malesauda .wrapper,.magna-feugiat .wrapper {
+  .get-started .wrapper,.ipsum-pharetra,.orci-malesauda .wrapper,.magna-feugiat .wrapper {
     flex-direction: column;
     row-gap: 20px;
   }
 
   .form,.magna-info {
     border-right: none;
+  }
+
+}
+
+/*media query for 768px starts here*/
+@media only screen and (max-width: 768px) {
+
+  .copyright {
+    font-size: 10px;
   }
 
 }  
