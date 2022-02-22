@@ -107,6 +107,7 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+/* get started start  */
 
 .get-started {
   background-image: linear-gradient(to right , #524A76,#773C78);
@@ -114,19 +115,144 @@ li {
 }
 
 .get-started .wrapper {
-  padding: 13.7% 0 6.2%;
+  padding: 13.2% 0 6.2%;
   display: flex;
 }
 
-.get-started h2 {
-  font-size: 30px;
+.get-started h2,.get-started p {
+  width: 89%;
 }
 
+.get-started h2 {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 48px;
+}
 
+.get-started p {
+  font-size: 17px;
+  line-height: 24px;
+  opacity: 0.6;
+}
 
+.welcome-header,.get-started-info {
+  flex-basis: 50%;
+}
 
+.get-started-info {
+  padding-left: 8.7%;
+}
 
+.get-started-info button {
+  padding: 12px 33px;
+  margin-top: 24px;
+  border: 2px solid #49BD8B;
+  border-radius: 20px;
+  background-color: #49BD8B;
+  color: #fff;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
 
+/* get started end  */
+/* magna feugiat start  */
+.magna-feugiat {
+  border-bottom: 1px solid #000;
+}
+
+.magna-feugiat .wrapper {
+  padding: 78px 0 70px;
+  display: flex;
+}
+
+.magna-info,.magna-list {
+  flex-basis: 50%;
+  box-sizing: border-box;
+}
+
+.magna-info {
+  padding-right: 5%;
+  border-right: 1px solid black;
+}
+
+.magna-info h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.magna-info p {
+  margin-top: 36px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.magna-info button {
+  padding: 12px 36px;
+  margin-top: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.magna-list {
+  padding-left: 4.5%;
+}
+
+.magna-list ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 31px;
+}
+
+/* magna feugiat end  */
+/* ipsum pharetra loader start  */
+
+  .ipsum-pharetra-loader {
+    margin-top: 72px;
+  }
+
+  .ipsum-pharetra {
+    margin-top: 43px;
+    display: flex;
+    align-items: center;
+  }
+
+  .ipsum-pharetra figure {
+    width: 397px;
+  }
+
+  .ipsum-pharetra-info {
+    padding-left: 4.4%;
+  }
+
+  .ipsum-pharetra-info button {
+    padding: 13px 36px;
+    margin-top: 30px;
+    border: 1px solid;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .ipsum-pharetra p {
+    margin-top: 30px;
+    line-height: 28px;
+    font-size: 15px;
+  }
+
+  .ipsum-pharetra h3 {
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  .load-more {
+    margin-top: 44px;
+  }
+
+/* ipsum pharetra loader end  */
 
 /*=================================
   main styling ends here
