@@ -206,6 +206,13 @@ li {
   row-gap: 31px;
 }
 
+.magna-list ul li::before {
+  content: "\f00c";
+  margin-right: 9px;
+  color: #4ABD8B;
+  font-family: "fontAwesome";
+}
+
 /* magna feugiat end  */
 /* ipsum pharetra loader start  */
 
@@ -372,8 +379,58 @@ input[type="submit"]:hover {
   color: #000;
 }
 
+.contact-info ul li a::before {
+  content: "\f099";
+  margin-right: 14px;
+  font-family: "fontAwesome";
+  color: #49BD8B;
+} 
+
+.address a{
+  text-indent: -9999px;
+}
+
+.address {
+  display: flex;
+}
+
+.address span {
+  display: block;
+}
+
+.address .somewhere-road {
+  display: inline-block;
+}
+
+.contact-info ul li:nth-child(2) a::before {
+  content: "\f09a";
+}
+
+.contact-info ul li:nth-child(3) a::before {
+  content: "\f16d";
+}
+
+.contact-info ul li:nth-child(4) a::before {
+  content: "\f0e0";
+}
+
+.contact-info ul li:nth-child(5) a::before {
+  content: "\f015";
+  margin-right: 5px;
+  float: right;
+  text-indent: 0;
+}
+
+.contact-info ul li a:hover::before {
+  color: #ffa500;
+}
+
 .address {
   line-height: 28px;
+}
+
+.nashville {
+  margin-left: 24px;
 }
 
 /* orci malesauda end   */
@@ -394,11 +451,6 @@ footer .wrapper {
   opacity: 0.7;
 }
 
-
-
-
-
-
  /*=================================
   footer styling ends here
 =================================*/ 
@@ -407,6 +459,13 @@ footer .wrapper {
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 
+  .ipsum-pharetra,.orci-malesauda .wrapper,.magna-feugiat .wrapper {
+    flex-direction: column;
+    row-gap: 20px;
+  }
 
+  .form,.magna-info {
+    border-right: none;
+  }
 
 }  
