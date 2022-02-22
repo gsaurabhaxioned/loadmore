@@ -381,7 +381,14 @@ input[type="submit"]:hover {
 /*=================================
   footer styling starts here
 =================================*/ 
-
+footer .wrapper {
+  padding: 55px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  opacity: 0.7;
+}
 
 
 
