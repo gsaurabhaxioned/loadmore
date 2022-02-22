@@ -217,8 +217,12 @@ li {
 
   .ipsum-pharetra {
     margin-top: 43px;
-    display: flex;
     align-items: center;
+    display: none;
+  }
+
+  .ipsum-pharetra:nth-child(1),.ipsum-pharetra:nth-child(2),.ipsum-pharetra:nth-child(3) {
+    display: flex;
   }
 
   .ipsum-pharetra figure {
